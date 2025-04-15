@@ -1,4 +1,4 @@
-# Auckland-Transit-Tracker
+# Auckland Transit Tracker
 A python tool for tracking the location of any public transit vehicle along with information about the vehicle.
 This tool accesses the Auckland Transport "Realtime Compat" API to get GTFS (General Transit Feed Specification) information about public transport vehicles in Auckland and displays this information on a simple, easy-to-use GUI. This tool makes finding rare or special transit vehicles much easier as it gives the live location, route, trip ID, and much more about the vehicle.
 
