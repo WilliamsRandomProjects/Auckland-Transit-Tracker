@@ -3,7 +3,7 @@ A python tool for tracking the location of any public transit vehicle along with
 
 This tool accesses the Auckland Transport "Realtime Compat" API to get GTFS (General Transit Feed Specification) information about public transport vehicles in Auckland and displays this information on a simple, easy-to-use GUI. This tool makes finding rare or special transit vehicles much easier as it gives the live location, route, trip ID, and much more about the vehicle.
 
-![Overview of user interface](https://raw.githubusercontent.com/WilliamsRandomProjects/Auckland-Transit-Tracker/refs/heads/main/overview.PNG)
+![Overview of user interface](overview.PNG)
 
 # Setup
 Download and unzip the contents into a folder. Before you run it, you'll need:
@@ -25,7 +25,7 @@ If a vehicle has a valid route, you can click on its entry in the table which wi
 If you want the tracker to update immediately (e.g. after making changes to the settings), you can use the "Force Update" button.
 
 Speed on the data table is in km/h, occupancy goes from 0 (empty) to 5 (completely full)
-![Vehicle selection and route display](https://raw.githubusercontent.com/WilliamsRandomProjects/Auckland-Transit-Tracker/refs/heads/main/routesel.PNG)
+![Vehicle selection and route display](routesel.PNG)
 
 # Limitations and Problems
 - School bus routes aren't included in the GTFS data, so you won't be able to see school routes displayed on the map.
