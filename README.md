@@ -3,7 +3,7 @@ A python tool for tracking the location of any public transit vehicle along with
 
 This tool accesses the Auckland Transport "Realtime Compat" API to get GTFS (General Transit Feed Specification) information about public transport vehicles in Auckland and displays this information on a simple, easy-to-use GUI. This tool makes finding rare or special transit vehicles much easier as it gives the live location, route, trip ID, and much more about the vehicle.
 
-![Overview of user interface](overview.PNG)
+![Overview of user interface](DescriptionImages/overview.PNG)
 
 # Setup
 Download and unzip the contents into a folder. Before you run it, you'll need:
@@ -25,10 +25,25 @@ If a vehicle has a valid route, you can click on its entry in the table which wi
 If you want the tracker to update immediately (e.g. after making changes to the settings), you can use the "Force Update" button.
 
 Speed on the data table is in km/h, occupancy goes from 0 (empty) to 5 (completely full)
-![Vehicle selection and route display](routesel.PNG)
+![Vehicle selection and route display](DescriptionImages/routesel.PNG)
+
+The following features are available in the Bus Tracker 5 version:
+
+A trip history feature has been added. This allows you to see all previous trips a vehicle made while the tracker is running, and can be accessed by selecting a vehicle then pressing Trip History. The trip history for all vehicles can be cleared using the Clear Trip History button.
+
+If a "ghost image" is left on the map where stops and vehicles don't clear properly, the Force Reset Map button will reset the map and clear the icons.
+
+Similarly, the Recentre Map button is used to recentre the map in the case that the map pans too much.
+
+The new version uses the same supporting files (GTFS, images, config) as the original version.
+
+The new interface is displayed below:
+![Updated GUI for Bus Tracker 5](DescriptionImages/NewInterface.PNG)
+
+![Trip History Display](DescriptionImages/TripHistory.PNG)
 
 # Limitations and Problems
 - School bus routes aren't included in the GTFS data, so you won't be able to see school routes displayed on the map.
-- Be patient when clicking on a vehicle to see its route, as it's quite slow.
+- Be patient when clicking on a vehicle to see its route, as it's quite slow. The new version has optimised this and it takes much less time, though it is still slow.
 - When you initially select a vehicle, the route path and stops will be drawn over the top of vehicle icons- this will resolve itself when the map updates.
-- Occasionally, the map will fail to clear vehicle markers and stop markers, leaving a ghost image on the map. You'll need to close and reopen the tracker to reset it.
+- Occasionally, the map will fail to clear vehicle markers and stop markers, leaving a ghost image on the map. This has been mostly resolved through the Force Reset Map button.
