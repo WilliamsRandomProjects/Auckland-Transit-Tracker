@@ -44,6 +44,6 @@ The new interface is displayed below:
 
 # Limitations and Problems
 - School bus routes aren't included in the GTFS data, so you won't be able to see school routes displayed on the map.
-- Be patient when clicking on a vehicle to see its route, as it's quite slow. The new version has optimised this and it takes much less time, though it is still slow.
+- Be patient when clicking on a vehicle to see its route, as it's quite slow. The new version has optimised this and it takes about half as long, though it is still slow.
 - When you initially select a vehicle, the route path and stops will be drawn over the top of vehicle icons- this will resolve itself when the map updates.
 - Occasionally, the map will fail to clear vehicle markers and stop markers, leaving a ghost image on the map. This has been mostly resolved through the Force Reset Map button.
